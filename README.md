@@ -9,9 +9,13 @@ section *main* point to npm module export
 
 ## src/tsconfig.json
 
-section *declarations* should set to *true*
+section *declaration* should set to *true*
 section *outDir* should set to "../lib"  
 
+```javascript 
+npm run build
+```
+check that lib contains .d.ts and .js files
 in another program where u wanna use this package
 ```javascript
 // npm install ts-team-npm-module
